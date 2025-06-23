@@ -8,21 +8,21 @@
  * 주의할 점: tkinter를 실행하고 버튼 등을 클릭할 때, 반응 속도가 느려 일시적으로 오류가 난 것처럼 보일 수 있습니다. 하지만 잠시만 기다리시거나 버튼을 한 번 더 눌러보시면 정상적으로 실행되는 것을 확인하실 수 있습니다. 실행 속도가 느린 점 양해 부탁드립니다.
 
 # 3. 실행 화면 설명
-- final_hw_tk.py 파일 기준 -
-<img width="90" alt="Image" src="https://github.com/user-attachments/assets/0e1caaff-f83f-4a0a-955a-a92e9f0152b1" />
-실행 버튼을 누르면 '게임 시작' 버튼이 뜨게 됩니다.
+- final_hw_tk.py 파일 기준 - <br />
+<img width="90" alt="Image" src="https://github.com/user-attachments/assets/0e1caaff-f83f-4a0a-955a-a92e9f0152b1" /><br />
+실행 버튼을 누르면 '게임 시작' 버튼이 뜨게 됩니다.<br /><br />
 
-<img width="257" alt="Image" src="https://github.com/user-attachments/assets/bbef0d65-1f14-4b13-a7f9-3ff63a4c9526" />
-시작 버튼을 눌러 게임을 시작하게 되면 게임 규칙에 대한 간단한 설명 창이 나옵니다.
+<img width="257" alt="Image" src="https://github.com/user-attachments/assets/bbef0d65-1f14-4b13-a7f9-3ff63a4c9526" /><br />
+시작 버튼을 눌러 게임을 시작하게 되면 게임 규칙에 대한 간단한 설명 창이 나옵니다.<br /><br />
 
-<img width="377" alt="Image" src="https://github.com/user-attachments/assets/03f66f78-a971-49f6-a9c3-9c8d1b9a7f1f" />
-난이도를 선택할 수 있습니다. 선택한 난이도에 따라 게임 실행 횟수가 달라집니다.
+<img width="377" alt="Image" src="https://github.com/user-attachments/assets/03f66f78-a971-49f6-a9c3-9c8d1b9a7f1f" /><br />
+난이도를 선택할 수 있습니다. 선택한 난이도에 따라 게임 실행 횟수가 달라집니다.<br /><br />
 
-<img width="283" alt="Image" src="https://github.com/user-attachments/assets/741049e4-edc2-402c-89b5-6b4c4375fbee" />
-본격적으로 게임이 시작한 후의 화면입니다. 빈칸에 숫자를 입력할 수 있고, 입력 후 확인 버튼을 누르면 스트라이크/아웃/볼에 대한 결과를 볼 수 있습니다.
+<img width="283" alt="Image" src="https://github.com/user-attachments/assets/741049e4-edc2-402c-89b5-6b4c4375fbee" /><br />
+본격적으로 게임이 시작한 후의 화면입니다. 빈칸에 숫자를 입력할 수 있고, 입력 후 확인 버튼을 누르면 스트라이크/아웃/볼에 대한 결과를 볼 수 있습니다.<br /><br />
 
-<img width="151" alt="Image" src="https://github.com/user-attachments/assets/316e1a9e-5705-485f-a6eb-9120f60acb2a" />
-게임 그만두기 버튼을 눌러 게임을 언제든지 종료할 수 있습니다.
+<img width="151" alt="Image" src="https://github.com/user-attachments/assets/316e1a9e-5705-485f-a6eb-9120f60acb2a" /><br />
+게임 그만두기 버튼을 눌러 게임을 언제든지 종료할 수 있습니다.<br /><br />
 
 
 
