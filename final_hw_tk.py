@@ -16,7 +16,7 @@ def show_rules():
         "    • 하: 20번"
     )
     messagebox.showinfo("게임 규칙", rules)
-    lvl_frame.pack(pady=10)  # 규칙창 확인 후 난이도 선택 보여줌
+    lvl_frame.pack(pady=10)  # 규칙창 확인 후 난이도 선택 보여주기
 
 # 난이도별 기회 선택
 def choice_level(level):
@@ -47,7 +47,6 @@ def start_game(level):
     lvl_frame.pack_forget()
     setup_rows()
 
-# GUI rows setup
 def setup_rows():
     for widget in frame_rows.winfo_children():
         widget.destroy()
@@ -62,7 +61,6 @@ def setup_rows():
         lbl.grid(row=i, column=2, padx=5)
         rows.append((ent, btn, lbl))
 
-    # 여기에 항상 그만두기 버튼 다시 붙이기
     btn_quit.config(text="게임 그만두기")
     btn_quit.pack(pady=10)
 
@@ -71,18 +69,17 @@ def check_guess(row):
     ent, btn, lbl = rows[row]
     guess = ent.get()
 
-    # 유효성 검사 먼저!
+    # 유효성 검사 먼저
     if not guess.isdigit() or len(guess) != 4 or len(set(guess)) != 4:
         messagebox.showwarning("입력 오류", "4자리 서로 다른 숫자를 입력하세요.")
-        return  # ⚠️ 여기서 함수 종료! → 아래 비활성화 실행 안 됨
+        return
 
-    # 여기까지 왔으면 유효한 입력
     strike = isit_strike(answer, guess)
     ball = isit_ball(answer, guess)
     out = 4 - strike - ball
 
     lbl.config(text=f"{strike}S {ball}B {out}O")
-    btn.config(state='disabled')  # ✅ 정상 입력일 때만 비활성화
+    btn.config(state='disabled')
     ent.config(state='disabled')
 
     if strike == 4:
@@ -93,7 +90,7 @@ def check_guess(row):
         messagebox.showinfo("끝!", f"기회 소진! 정답은 '{answer}'")
         btn_quit.config(text="게임 다시 시작")
 
-# 게임 종료 / 재시작
+# 게임 종료 및 재시작
 def quit_or_restart():
     if btn_quit['text'] == "게임 그만두기":
         root.destroy()
@@ -104,7 +101,7 @@ def quit_or_restart():
         start_btn.pack(pady=20)
         lvl_frame.pack(pady=10)
 
-# === tkinter UI 생성 ===
+# UI 생성
 root = tk.Tk()
 root.title("숫자 야구 게임")
 
@@ -122,7 +119,7 @@ frame_rows.pack()
 
 btn_quit = tk.Button(root, text="게임 그만두기", font=('Helvetica',14), command=quit_or_restart)
 
-rows = []  # (Entry, Button, Label) 튜플 목록
+rows = []
 attempts_left = 0
 answer = ""
 
