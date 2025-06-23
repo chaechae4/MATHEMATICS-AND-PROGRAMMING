@@ -9,7 +9,28 @@
 
 # 3. 코드 설명
 \- "final_hw_250620.py" 파일 기준 - <br /><br />
+게임 진행에 필요한 함수들을 간단히 설명하겠습니다.
 
+<img width="451" alt="Image" src="https://github.com/user-attachments/assets/d22de0f2-fe28-4011-8374-88fcce7fe754" /><br />
+상/중/하에 따라 다른 try 값을 리턴하도록 함수를 만들었습니다.<br /><br />
+
+<img width="434" alt="Image" src="https://github.com/user-attachments/assets/9a064c85-8486-46cd-a854-359a69002b5b" /><br />
+진행자(컴퓨터)만이 알고 있는 서로 다른 4자리 숫자로 이루어진 수를 랜덤으로 생성합니다.<br /><br />
+
+<img width="217" alt="Image" src="https://github.com/user-attachments/assets/549aa1c8-65e7-4b63-ad82-e6777ff92987" /><br />
+게임 플레이어가 입력한 값이 유효한 값인지 판단하는 함수입니다. 예를 들어 플레이어가 5자리 이상의 수를 입력했을 때, 숫자가 아닌 문자를 입력했을 때, 중복되는 숫자를 입력했을 때 다시 수를 입력할 수 있도록합니다.<br /><br />
+
+<img width="481" alt="Image" src="https://github.com/user-attachments/assets/08c26a68-dc1f-48dd-8035-7a8eba295b34" /><br />
+입력받은 수와 정답 수를 비교하며 s/b/o의 결과가 어떻게 되는 지 판단해주는 함수입니다.<br /><br />
+
+<img width="239" alt="Image" src="https://github.com/user-attachments/assets/133f1999-8143-4b87-916e-297ab63d3d2e" /><br /><br /><br />
+모든 입력에 대해 정답인지 아닌지 판단하기 위해 만든 함수입니다.<br /><br />
+
+<img width="626" alt="Image" src="https://github.com/user-attachments/assets/bdebd16c-ea15-45c0-a563-b962194b2f5e" /><br />
+리턴받은 try 값에 따라 while문을 반복해줍니다.<br /><br />
+
+<img width="535" alt="Image" src="https://github.com/user-attachments/assets/e508f03c-7ffe-493a-b108-bf698064bd1d" /><br />
+정답을 맞췄을 때 게임을 계속 할 것인지 조건을 나누어줍니다.<br /><br />
 
 # 4. 실행 화면 설명
 \- "final_hw_tk.py" 파일 기준 - <br /><br />
