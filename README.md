@@ -8,7 +8,7 @@
  * 주의할 점: tkinter를 실행하고 버튼 등을 클릭할 때, 반응 속도가 느려 일시적으로 오류가 난 것처럼 보일 수 있습니다. 하지만 잠시만 기다리시거나 버튼을 한 번 더 눌러보시면 정상적으로 실행되는 것을 확인하실 수 있습니다. 실행 속도가 느린 점 양해 부탁드립니다.
 
 # 3. 실행 화면 설명
-\- final_hw_tk.py 파일 기준 - <br />
+\- final_hw_tk.py 파일 기준 - <br /><br />
 <img width="90" alt="Image" src="https://github.com/user-attachments/assets/0e1caaff-f83f-4a0a-955a-a92e9f0152b1" /><br />
 실행 버튼을 누르면 '게임 시작' 버튼이 뜨게 됩니다.<br /><br />
 
